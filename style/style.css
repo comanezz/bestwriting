@@ -1,0 +1,107 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.container-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0%;
+  z-index: 1000;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 100px;
+  height: 35px;
+}
+.container-logo-menu {
+  display: flex;
+}
+.container-logo-title {
+  display: flex;
+  align-items: center;
+}
+.title {
+  margin-left: 8px;
+}
+.title h1 {
+  font-size: 26px;
+  margin: 0;
+  color: rgb(0 84 80);
+}
+.list-menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  color: rgb(64 64 71);
+}
+.list-menu ul li {
+  padding: 8px 12px;
+  margin-left: 16px;
+}
+.btn-sign-up a {
+  text-decoration: none;
+  color: rgb(64 64 71);
+  padding: 10px 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: rgb(212 212 216);
+}
+main {
+  height: 100%;
+}
+.container {
+  height: 100%;
+  padding-top: 85px;
+}
+.columns {
+  height: 85%;
+  display: flex;
+}
+.col-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #00413e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-2 {
+  width: 100%;
+}
+.content-col-1 {
+  width: 80%;
+  max-width: 80%;
+}
+.col-1 h1 {
+  margin-top: 0;
+  font-size: 3.75rem;
+}
+.content-col-1 :nth-child(2) {
+  font-size: 1.25rem;
+}
+.col-1 a {
+  color: #00413e;
+  text-decoration: none;
+  padding: 16px 28px;
+  background-color: #ffc776;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
